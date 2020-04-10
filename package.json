@@ -18,8 +18,35 @@
 			{
 				"command": "tools.helloWorld",
 				"title": "Hello World"
+			}	
+		],
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript.json"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "toolContainer",
+					"title": "工具箱",
+					"icon": "./media/icon-tool.svg"
+				}
+			]
+		},
+		"views": {
+			"toolContainer": [
+				{
+					"id": "tool1",
+					"name": "资源1"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",

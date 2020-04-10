@@ -63,3 +63,13 @@ Added features X, Y, and Z.
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+
+
+
+## changelog
+
+### 2020年04月09日
+
+- 增加 snippets，用来做语法提示
+- 在左侧菜单栏增加图标，同时需要对应加上菜单的内容
